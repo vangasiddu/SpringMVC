@@ -29,7 +29,7 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate);
 
 		return "home";
-	}
+	//}
 
 	@RequestMapping(value = "/user", method = RequestMethod.POST)
 	public String user(@Validated User user, Model model) {
